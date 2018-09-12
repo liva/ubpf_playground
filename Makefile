@@ -1,4 +1,4 @@
-DOCKER_CMD=docker run -v${PWD}:/workdir -w /workdir --rm livadk/ubpf
+DOCKER_CMD=docker run -v${PWD}:/workdir -w /workdir --rm livadk/ubpf:1387664b5a6d34f9b4952aa65b574a7348affac9
 .PHONY: run clean
 
 run:main.o
